@@ -1,4 +1,4 @@
-##Backup Notes
+## Backup Notes
 Incremental backup: changes since last full backup.
 Incremental backup is always added to full backup. (incremental backup needs full backup to operate)
 Reverse Incremental backup: full backup is sooner and incremental backups are far away like every week for a year ago.
@@ -14,10 +14,10 @@ Repository Server can be a VM or Physical.
 * backup retention is to backup files up to 14 days only and in day 15 the first day will be merged with second day exactly like cctv recording.
 * Every backup process is given duration to finish but not always accurate.
 * VEEAM free - backup and replication only
-Backup Strategy:
-	3 2 1 Strategy:
-		3 copies of data (production - backup - another backup)
-		2 Different Media
-		1 offsite
-	
-	3 2 1 0 Strategy:
+	Backup Strategy:
+		3 2 1 Strategy:
+			3 copies of data (production - backup - another backup)
+			2 Different Media
+			1 offsite
+		
+		3 2 1 0 Strategy:
