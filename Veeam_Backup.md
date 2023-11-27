@@ -1,4 +1,5 @@
-## Backup Notes
+## Backup Notes:
+
 * Incremental backup: changes since last full backup.
 * Incremental backup is always added to full backup. (incremental backup needs full backup to operate)
 * Reverse Incremental backup: full backup is sooner and incremental backups are far away like every week for a year ago.
