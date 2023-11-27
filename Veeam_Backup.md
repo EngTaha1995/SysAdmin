@@ -1,11 +1,11 @@
 ## Backup Notes
-Incremental backup: changes since last full backup.
-Incremental backup is always added to full backup. (incremental backup needs full backup to operate)
-Reverse Incremental backup: full backup is sooner and incremental backups are far away like every week for a year ago.
-Reverse incremental backup is not very common.
-differential backup: changes since last full backup.
-Always backup on different media on different site.
-Repository Server can be a VM or Physical.
+* Incremental backup: changes since last full backup.
+* Incremental backup is always added to full backup. (incremental backup needs full backup to operate)
+* Reverse Incremental backup: full backup is sooner and incremental backups are far away like every week for a year ago.
+* Reverse incremental backup is not very common.
+* Differential backup: changes since last full backup.
+* Always backup on different media on different site.
+* Repository Server can be a VM or Physical.
 * NAS ex: CIFS, NFS and SMB.
 * SAN ex: FC, ISCSI.
 * You Can always install veeam on server and install veeam console on your pc for more performance and access remotely.
